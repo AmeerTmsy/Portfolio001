@@ -1,72 +1,24 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48ZyBmaWxsPSIjZmZmIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCI+PHBhdGggZD0iTTE2IDlhNCA0IDAgMSAxLTggMGE0IDQgMCAwIDEgOCAwbS0yIDBhMiAyIDAgMSAxLTQgMGEyIDIgMCAwIDEgNCAwIi8+PHBhdGggZD0iTTEyIDFDNS45MjUgMSAxIDUuOTI1IDEgMTJzNC45MjUgMTEgMTEgMTFzMTEtNC45MjUgMTEtMTFTMTguMDc1IDEgMTIgMU0zIDEyYzAgMi4wOS43MTMgNC4wMTQgMS45MDggNS41NDJBOC45OSA4Ljk5IDAgMCAxIDEyLjA2NSAxNGE4Ljk4IDguOTggMCAwIDEgNy4wOTIgMy40NThBOSA5IDAgMSAwIDMgMTJtOSA5YTguOTYgOC45NiAwIDAgMS01LjY3Mi0yLjAxMkE2Ljk5IDYuOTkgMCAwIDEgMTIuMDY1IDE2YTYuOTkgNi45OSAwIDAgMSA1LjY4OSAyLjkyQTguOTYgOC45NiAwIDAgMSAxMiAyMSIvPjwvZz48L3N2Zz4=" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
-        rel="stylesheet">
-    <title>Ameer Suhail</title>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Sans+Georgian:wght@100..900&family=Noto+Serif+Georgian:wght@100..900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Space+Grotesk:wght@300..700&display=swap"
+    rel="stylesheet">
+  <title>portfolio</title>
 </head>
 
 <body>
-    <div>
-        <section class="hero">
-            <div class="hero-header">
-                <div class="hero-header-icon">
-                    <div>
-                        <h3>Hi There,</h3>
-                    </div>
-                </div>
-                <div class="hero-header-nav">
-                    <ul id="nav-menu">
-                        <!-- <li onclick="scrollToSection('home')">Home</li> -->
-                        <!-- <li>Links</li> -->
-                        <li class="about-link" onclick="scrollToSection('about')"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.5"><path stroke-linejoin="round" d="M4 18a4 4 0 0 1 4-4h8a4 4 0 0 1 4 4a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2Z"/><circle cx="12" cy="7" r="3"/></g></svg></li>
-                        <li class="connect-link" onclick="scrollToSection('findme')"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 256 256"><path fill="currentColor" d="M88.57 35a8 8 0 0 1 14.86-6l8 20a8 8 0 0 1-14.86 6ZM29 103.43l20 8a8 8 0 1 0 6-14.86l-20-8a8 8 0 0 0-6 14.86m198 49.14l-20-8a8 8 0 1 0-6 14.86l20 8a8 8 0 0 0 6-14.86M159.43 201a8 8 0 0 0-14.86 6l8 20a8 8 0 1 0 14.86-6Zm78.48-182.48a8 8 0 0 0-11.5-.18L174 70.75l-5.38-5.38a32 32 0 0 0-45.28 0l-17.2 17.17a4 4 0 0 0 0 5.66l61.7 61.66a4 4 0 0 0 5.66 0l16.74-16.74a32.76 32.76 0 0 0 9.81-22.52a31.82 31.82 0 0 0-9.37-23.17l-5.38-5.37l52.2-52.17a8.22 8.22 0 0 0 .41-11.37M85.64 90.34a8 8 0 0 0-11.49.18a8.22 8.22 0 0 0 .41 11.37l6.11 6.11l-15.33 15.31A31.82 31.82 0 0 0 56 146.47A32.75 32.75 0 0 0 65.77 169l5 4.94l-52.28 52.19a8.21 8.21 0 0 0-.61 11.1a8 8 0 0 0 11.72.43L82 185.25l5.37 5.38a32.1 32.1 0 0 0 45.29 0L148 175.31l6.34 6.35a8 8 0 0 0 11.32-11.32Z"/></svg></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="hero-content">
-                <div>
-                    <div class="hero-content-container">
-                        <div class="hero-content-name">
-                            <h2><span class="left-angle-brackets">&lt;</span> / <span class="right-angle-brackets">&gt;</span></h2>
-                            <h1>I am Ameer Suhail</h1>
-                        </div>
-                        <div class="typewriter-container">
-                            <p class="text-wrap">A MERN Stack Developer&nbsp;<span id="typewriter"></span><span class="cursor">|</span></p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="about">
-            <div class="about-main">
-                <div class="about-main-header">
-                    <h2>About Me !</h2>
-                    <p>Jest scroll the chat <span>👉</span></p>
-                </div>
-                <div class="about-chat-section">
-                    <div class="chat-container" id="chat-container">
-                        <!-- Chat messages will be dynamically inserted here via app.js -->
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="footer">
-            <div>
-                <p>Let’s build something meaningful together.</p>
-                <p>-  <a href='https://github.com/AmeerTmsy' target='_blank' class='footer-link pointer' style='text-decoration:none;' title='GitHub'><svg class='github-icon' xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"><path fill="currentColor" d="M12 2.249c-5.484 0-10 4.452-10 10c0 4.387 2.871 8.13 6.871 9.484c.516.097.677-.226.677-.452s0-.87-.032-1.742c-2.774.645-3.355-1.355-3.355-1.355c-.451-1.129-1.129-1.451-1.129-1.451c-.903-.645.033-.645.033-.645c1 .032 1.548 1.032 1.548 1.032c.87 1.548 2.355 1.097 2.903.806c.097-.645.355-1.096.645-1.354c-2.193-.226-4.548-1.097-4.548-4.904c0-1.096.42-1.967 1.032-2.645c-.097-.226-.451-1.258.097-2.645c0 0 .87-.258 2.774 1.032a9.3 9.3 0 0 1 2.516-.355c.871 0 1.742.097 2.516.355c1.904-1.258 2.742-1.032 2.742-1.032c.549 1.355.226 2.42.097 2.645c.645.678 1.032 1.58 1.032 2.645c0 3.807-2.355 4.678-4.548 4.904c.355.322.677.967.677 1.87c0 1.355-.032 2.42-.032 2.742c0 .259.194.549.678.452C19.129 20.314 22 16.604 22 12.185c-.032-5.484-4.516-9.936-10-9.936"/></svg>Ameer Suhail</a> -</p>
-            </div>
-        </section>
-    </div>
-    <script src="app.js"></script>
+  <div id="root"></div>
+  <script type="module" src="/src/main.jsx"></script>
 </body>
 
 </html>
